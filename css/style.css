@@ -13,12 +13,16 @@ h2 {
     color: rgb(221, 131, 67);
 }
 
+ul {
+    font-weight: 700;
+}
+
 .container {
 
 }
 
 .wrapper {
-    
+
 }
 
 .font-size {
@@ -27,6 +31,10 @@ h2 {
 
 .sm-font {
     font-size: 18px;
+}
+
+.text-color {
+    color: rgb(110, 52, 9);
 }
 
 .home-page,

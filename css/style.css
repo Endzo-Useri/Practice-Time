@@ -13,6 +13,14 @@ h2 {
     color: rgb(221, 131, 67);
 }
 
+.container {
+
+}
+
+.wrapper {
+    
+}
+
 .font-size {
     font-size: 21px;
 }
@@ -50,19 +58,19 @@ h2 {
     color: chocolate;
 }
 
-.khan {
+.link {
     color: chocolate;
 }
 
-.khan:visited {
+.link:visited {
     color: purple;
 }
 
-.khan:hover,
-.khan:focus {
+.link:hover,
+.link:focus {
     color: blue;
 }
 
-.khan:active {
+.link:active {
     color: crimson;
 }

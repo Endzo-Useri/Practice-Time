@@ -21,28 +21,25 @@ h2 {
     font-size: 18px;
 }
 
-.home-page {
+.home-page,
+.about-me {
     display: inline-block;
-    background: chocolate;
     color: #fff;
     font-size: 18px;
     font-weight: 700;
     padding: 6px 15px;
     text-decoration: none;
-    border: 3px solid chocolate;
     border-radius: 30px;
 }
 
+.home-page {
+    background: chocolate;
+    border: 3px solid chocolate;
+}
+
 .about-me {
-    display: inline-block;
     background: rgb(221, 131, 67);
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 6px 15px;
-    text-decoration: none;
     border: 3px solid rgb(221, 131, 67);
-    border-radius: 30px;
 }
 
 .home-page:hover,

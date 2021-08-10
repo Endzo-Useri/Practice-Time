@@ -4,12 +4,13 @@ body {
 }
 
 h1 {
-    color: chocolate;
+    color: rgb(110, 52, 9);
+    font-size: 50px;
+    text-align: center;
 }
 
 h2 {
-    color: crimson;
-    text-align: center;
+    color: rgb(221, 131, 67);
 }
 
 .font-size {
@@ -18,4 +19,22 @@ h2 {
 
 .sm-font {
     font-size: 18px;
+}
+
+.home-page {
+    background: chocolate;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.about-me {
+    background: rgb(221, 131, 67);
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 30px;
 }

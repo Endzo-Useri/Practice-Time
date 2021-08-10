@@ -1,5 +1,5 @@
 body {
-    background: bisque;
+    background: rgb(235, 232, 229);
     font-family: 'EB Garamond', serif;
 }
 
@@ -22,19 +22,33 @@ h2 {
 }
 
 .home-page {
+    display: inline-block;
     background: chocolate;
     color: #fff;
     font-size: 18px;
-    padding: 8px 20px;
+    font-weight: 700;
+    padding: 6px 15px;
     text-decoration: none;
+    border: 3px solid chocolate;
     border-radius: 30px;
 }
 
 .about-me {
+    display: inline-block;
     background: rgb(221, 131, 67);
     color: #fff;
     font-size: 18px;
-    padding: 8px 20px;
+    font-weight: 700;
+    padding: 6px 15px;
     text-decoration: none;
+    border: 3px solid rgb(221, 131, 67);
     border-radius: 30px;
+}
+
+.home-page:hover,
+.home-page:focus,
+.about-me:hover,
+.about-me:focus {
+    background: bisque;
+    color: chocolate;
 }

@@ -52,3 +52,20 @@ h2 {
     background: bisque;
     color: chocolate;
 }
+
+.khan {
+    color: chocolate;
+}
+
+.khan:visited {
+    color: purple;
+}
+
+.khan:hover,
+.khan:focus {
+    color: blue;
+}
+
+.khan:active {
+    color: crimson;
+}

@@ -40,25 +40,17 @@ ul {
 .home-page,
 .about-me {
     display: inline-block;
+    background: hsl(25, 75%, 47%);
     color: #fff;
     font-size: 1rem;
     font-weight: 700;
     padding: 6px 15px;
     text-decoration: none;
 		text-transform: uppercase;
+    border: 3px solid hsl(25, 75%, 47%);
     border-radius: 30px;
 		transform: scale(1);
 		transition: transform 250ms;
-}
-
-.home-page {
-    background: hsl(25, 75%, 47%);
-    border: 3px solid chocolate;
-}
-
-.about-me {
-    background: rgb(221, 131, 67);
-    border: 3px solid rgb(221, 131, 67);
 }
 
 .home-page:hover,
@@ -67,6 +59,14 @@ ul {
 .about-me:focus {
     background: bisque;
     color: chocolate;
+		transform: scale(1.05);
+}
+
+.home-page:active,
+.about-me:active {
+	background: hsl(25, 75%, 47%);
+	color: #fff;
+	transform: scale(1);
 }
 
 .link {
